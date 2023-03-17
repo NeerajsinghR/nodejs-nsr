@@ -77,3 +77,8 @@ require('./fileName.js') is used to call function of other file.
 By default file(module) is incapsulated, so if we need to use that file function in another file then
 we can use 
 module.exports= function name add(1(which function we want to use in another js file)
+
+- What is NPM ?
+
+Node Package Manager is used for install the require dependency from package.json file
+it download the require dependency from onlne npm registry.
