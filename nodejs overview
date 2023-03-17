@@ -1,0 +1,50 @@
+what is node js?
+
+node js is javascript runtime engine where we can run javascript code.
+
+uses of node js:
+
+1.Access to system resource
+2.Memory,file system.
+
+To check node version use these below command.
+node -v
+
+ What is NVM?
+ 
+ NVM (Node Version Manager) is manage various version of node on your machine. 
+ It solves the problem for install node version again, if u want to work on different node version.
+ 
+ nvm install node (current version) use to install latest node version
+ OR nvm install 6.14.4 (specify node version)
+
+nvm use 10.14.4 (specify node version) to switch the node version
+
+Node REPL ( Read Evaluate Print Loop)
+
+In node by default REPL is inbuild. To stat REPL we need to simply type node in terminal. now u can write javascript code and it run.
+
+EX:
+  ~ node
+> 
+> 1+1
+2
+> var a;
+undefined
+> a =100;
+100
+> a+10
+110
+-------------
+
+> a=250
+250
+> if(a<200){
+... console.log("hello world");
+... }else{
+... console.log("else block");
+... }
+
+O/p: else block
+--------
+
