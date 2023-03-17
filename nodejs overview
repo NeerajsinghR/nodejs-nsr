@@ -48,3 +48,32 @@ undefined
 O/p: else block
 --------
 
+To Exit REPL press Ctrl+C 2 time (To exit, type .exit)
+
+
+for running js file we need to use below command.
+node fileName.js
+
+- Node Modules?
+
+in Javascript every file is node module
+
+add.js
+require('./first.js')
+function add(a,b){
+    return a+b;
+}
+console.log(add(1,4));
+--
+first.js
+function hello(){
+    console.log("first node  program--"); 
+}
+hello();
+----
+
+require('./fileName.js') is used to call function of other file.
+
+By default file(module) is incapsulated, so if we need to use that file function in another file then
+we can use 
+module.exports= function name add(1(which function we want to use in another js file)
