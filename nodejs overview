@@ -82,3 +82,27 @@ module.exports= function name add(1(which function we want to use in another js 
 
 Node Package Manager is used for install the require dependency from package.json file
 it download the require dependency from onlne npm registry.
+
+npm init: used to create new npm  project.
+
+npm install librarynane:commnad used to install new dependency for project
+
+npm install : used to install all dependency which mentioned in package.json file.
+
+CallBacks function:- used to calling function after the callback function.
+
+in these below example code output:-
+
+inside myLoggerApi
+writing  file...
+helloo
+
+let myLoggerApi = function (logMessage, callback){
+    console.log("inside myLoggerApi")
+    fs.writeFile('out.log',logMessage, callback);     
+}
+
+myLoggerApi('Log this message',(err) => {
+    console.log("helloo")
+});
+
